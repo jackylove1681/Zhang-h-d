@@ -12,35 +12,35 @@
     第九项：for语句嵌套一般用于一个控制行，一个控制列
 
 ##第一个自我编写成功的程序
-  #include<stdio.h>
-int main()
-{
-int results;
-char x=‘A’,y=‘B’,a=‘C’,b=‘D’,e=‘E’;
-printf(“输入一个学生的成绩”);
-scanf("%d\n",&results);
-if(results>=90)
-{
-printf("%c\n",x);
-}
-else if(results>=80)
-{
-printf("%c\n",y);
-}
-else if(results>=70)
-{
-printf("%c\n",a);
-}
-else if(results>=60)
-{
-printf("%c\n",b);
-}
-else
-{
-printf("%c\n",e);
-}
-return 0;
-}
+    #include<stdio.h>
+    int main()
+    {
+    int results;
+    char x=‘A’,y=‘B’,a=‘C’,b=‘D’,e=‘E’;
+    printf(“输入一个学生的成绩”);
+    scanf("%d\n",&results);
+    if(results>=90)
+    {
+    printf("%c\n",x);
+    }
+    else if(results>=80)
+    {
+    printf("%c\n",y);
+    }
+    else if(results>=70)
+    {
+    printf("%c\n",a);
+    }
+    else if(results>=60)
+    {
+    printf("%c\n",b);
+    }
+    else
+    {
+    printf("%c\n",e);
+    }
+    return 0;
+    }
 ###学习链接
 [markdown教程](https://www.runoob.com/markdown/md-link.html）
 ————————————————
